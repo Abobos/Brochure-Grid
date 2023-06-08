@@ -1,0 +1,11 @@
+{
+  "name": "brochure-grid",
+  "version": "1.0.0",
+  "description": "Brochure grid page refers to a web page that showcases a collection of brochures or promotional materials using a grid layout",
+  "author": "Blessing Makaraba",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ]
+}
