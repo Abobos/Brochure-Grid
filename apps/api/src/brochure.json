@@ -1,0 +1,382 @@
+{
+  "brochures": [
+    {
+      "id": 1,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 1.0,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309992/Beer/8_imy5mn.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309992/Beer/8_imy5mn.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309992/Beer/8_imy5mn.jpg"
+      },
+      "publisher": {
+        "id": "1",
+        "name": "Bature",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/3_pyqzf3.jpg",
+          "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1686309991/Beer/3_pyqzf3.jpg"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 2.0,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309992/Beer/11_gckgwm.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309992/Beer/11_gckgwm.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309992/Beer/11_gckgwm.jpg"
+      },
+      "publisher": {
+        "id": "2",
+        "name": "Xooon",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/3_pyqzf3.jpg",
+          "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1686309991/Beer/3_pyqzf3.jpg"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 3.0,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309992/Beer/12_rl8nte.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309992/Beer/12_rl8nte.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309992/Beer/12_rl8nte.jpg"
+      },
+      "publisher": {
+        "id": "3",
+        "name": "Xeno",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/3_pyqzf3.jpg",
+          "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1686309991/Beer/3_pyqzf3.jpg"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    },
+    {
+      "id": 4,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 4.0,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309992/Beer/9_tgp2ge.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309992/Beer/9_tgp2ge.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309992/Beer/9_tgp2ge.jpg"
+      },
+      "publisher": {
+        "id": "4",
+        "name": "Xenox",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/3_pyqzf3.jpg",
+          "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1686309991/Beer/3_pyqzf3.jpg"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 5.0,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309992/Beer/10_xvzimx.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309992/Beer/10_xvzimx.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309992/Beer/10_xvzimx.jpg"
+      },
+      "publisher": {
+        "id": "5",
+        "name": "Fraudly",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/3_pyqzf3.jpg",
+          "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1686309991/Beer/3_pyqzf3.jpg"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    },
+    {
+      "id": 6,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 6.0,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309992/Beer/6_thvw2i.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309992/Beer/6_thvw2i.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309992/Beer/6_thvw2i.jpg"
+      },
+      "publisher": {
+        "id": "6",
+        "name": "Leo",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/3_pyqzf3.jpg",
+          "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1686309991/Beer/3_pyqzf3.jpg"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    },
+    {
+      "id": 7,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 7.0,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/1_ppoylt.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309991/Beer/1_ppoylt.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309991/Beer/1_ppoylt.jpg"
+      },
+      "publisher": {
+        "id": "7",
+        "name": "Lister",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/3_pyqzf3.jpg",
+          "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1686309991/Beer/3_pyqzf3.jpg"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    },
+    {
+      "id": 8,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 8.0,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/7_djodgf.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309991/Beer/7_djodgf.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309991/Beer/7_djodgf.jpg"
+      },
+      "publisher": {
+        "id": "8",
+        "name": "Lorexr",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/3_pyqzf3.jpg",
+          "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1686309991/Beer/3_pyqzf3.jpg"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    },
+    {
+      "id": 9,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 9.0,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/7_djodgf.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309991/Beer/7_djodgf.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309991/Beer/7_djodgf.jpg"
+      },
+      "publisher": {
+        "id": "9",
+        "name": "Lorenta",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/3_pyqzf3.jpg",
+          "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1686309991/Beer/3_pyqzf3.jpg"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    },
+    {
+      "id": 10,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 9.1,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/2_zvr6wn.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309991/Beer/2_zvr6wn.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309991/Beer/2_zvr6wn.jpg"
+      },
+      "publisher": {
+        "id": "10",
+        "name": "Tango",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/3_pyqzf3.jpg",
+          "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1686309991/Beer/3_pyqzf3.jpg"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    },
+    {
+      "id": 508671,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 9.2,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/5_fwsg0u.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309991/Beer/5_fwsg0u.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309991/Beer/5_fwsg0u.jpg"
+      },
+      "publisher": {
+        "id": "410369225",
+        "name": "Tangerine",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://...jpg?policy=thumbnails",
+          "normal": "https://...jpg?policy=320x480"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    },
+    {
+      "id": 12,
+      "title": "Mon style, mon choix",
+      "contentId": "dc4bfbcc-...",
+      "validFrom": "2021-04-01T00:00:00",
+      "validUntil": "2021-05-14T23:00:00",
+      "rank": 9.3,
+      "brochureImages": {
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/4_c74cph.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309991/Beer/4_c74cph.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309991/Beer/4_c74cph.jpg"
+      },
+      "publisher": {
+        "id": "12",
+        "name": "Tangerine",
+        "publisherType": "RETAILER",
+        "logo": {
+          "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/3_pyqzf3.jpg",
+          "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/e_improve,w_300,h_600,c_thumb,g_auto/v1686309991/Beer/3_pyqzf3.jpg"
+        }
+      },
+      "page": 0,
+      "type": "BROCHURE",
+      "publishedFrom": "2021-04-03T23:00:00.000+0000",
+      "publishedUntil": "2021-05-14T21:00:00.000+0000",
+      "_links": {
+        "self": {
+          "href": "https://.../webapp/viewer/508661492..."
+        }
+      }
+    }
+  ],
+  "page": {
+    "size": 1,
+    "totalElements": 12,
+    "totalPages": 12,
+    "number": 0
+  }
+}

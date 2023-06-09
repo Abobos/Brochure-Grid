@@ -1,19 +1,10 @@
-import fastify from "fastify";
+import { createServer } from "http";
+import app from "./app";
 
-const server = fastify({ logger: true });
+const server = createServer(app);
 
-const start = async () => {
-  try {
-    await server.listen({ port: 4000 });
+const port = 4000;
 
-    const address = server.server.address();
-    const port = typeof address === "string" ? address : address?.port;
-
-    server.log.info("App started listening at port", port);
-  } catch (err) {
-    server.log.error(err);
-    process.exit(1);
-  }
-};
-
-start();
+server.listen(port, () => {
+  console.log(`App listening on port ${port}`);
+});
