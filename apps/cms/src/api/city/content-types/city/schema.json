@@ -4,7 +4,8 @@
   "info": {
     "singularName": "city",
     "pluralName": "cities",
-    "displayName": "city"
+    "displayName": "city",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,11 +18,11 @@
     "description": {
       "type": "text"
     },
-    "enabled": {
-      "type": "boolean"
-    },
     "url_representation": {
       "type": "string"
+    },
+    "enabled": {
+      "type": "boolean"
     }
   }
 }
