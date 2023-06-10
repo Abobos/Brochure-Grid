@@ -4,7 +4,7 @@ import handler from "../controllers";
 
 const routes = Router();
 
-routes.get("/", (req, res) => {
+routes.get("/", (_req, res) => {
   res.send("Welcome to Brochure Grid API Service");
 });
 
