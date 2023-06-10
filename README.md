@@ -1,5 +1,7 @@
 ## Bronchure-Grid
 
+A brochure is a printed or digital promotional document that provides information about a product, service, organization, or event. It is commonly used as a marketing tool to communicate key details and features in a visually appealing and concise manner. Brochures are typically designed to be distributed to potential customers or clients and serve as a means to showcase offerings, generate interest, and persuade the target audience.
+
 ### Implementation Details
 
 ### Project Structure
@@ -29,18 +31,10 @@ Please refer to the architectural diagram below for a better understanding.
 
 - Install [Docker](https://www.docker.com/)
 - Run `docker-compose up -d`. But If you like to see those clumsy logs 😬, RUN `docker-compose up`
-- Open browser and visit `http://localhost:3000/graphql` and rock it
 
 #### Without Docker
 
-- Replace database_url in .env with your corresponding valid database url 👌
 - Run `yarn install` to install project dependencies
-
-#### Test
-
-```
-yarn test
-```
 
 ### Production Packaging
 
