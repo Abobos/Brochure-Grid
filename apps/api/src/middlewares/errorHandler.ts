@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from "express";
-import { BaseError, InternalServerError } from "../exceptions";
+import { BaseError, InternalServerError, NotFoundError } from "../exceptions";
 
 export const errorHandler = (
   error: BaseError,
@@ -7,7 +7,7 @@ export const errorHandler = (
   res: Response,
   _next: NextFunction
 ) => {
-  if (error.name === "Error") {
+  if (!(error instanceof NotFoundError)) {
     console.error(error);
 
     error = new InternalServerError("Something went wrong");
