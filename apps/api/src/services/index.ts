@@ -1,4 +1,4 @@
-const cmsUrl = "http://127.0.0.1:1337/api";
+const cmsUrl = process.env.CMS_URL;
 
 const apiCLient = {
   getCity: async (name: string) => {
