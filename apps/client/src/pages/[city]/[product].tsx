@@ -1,5 +1,6 @@
 import BrochureCard from "@/components/Brochure";
 import { BrochureData } from "@/types";
+import { GetServerSidePropsContext } from "next";
 
 export default function Brochure({ data }: { data: BrochureData }) {
   return (
@@ -35,9 +36,11 @@ export default function Brochure({ data }: { data: BrochureData }) {
   );
 }
 
-export async function getServerSideProps(props: any) {
+export async function getServerSideProps(context: GetServerSidePropsContext) {
+  const url = process.env.API_URL;
+
   const res = await fetch(
-    `http://127.0.0.1:4000/city-product-grid?city=${props.query.city}&product=${props.query.product}`
+    `${url}/city-product-grid?city=${context.query.city}&product=${context.query.product}`
   );
   const errorCode = res.ok ? false : res.status;
   const { data } = await res.json();
