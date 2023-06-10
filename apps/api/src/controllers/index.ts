@@ -11,19 +11,17 @@ const handler = async (
   try {
     const { city: cityName, product: productName } = req.query;
 
-    const city = await apiCLient.getCity(cityName);
+    const city = await apiCLient.getCity(cityName.toLowerCase());
 
     if (!city)
       throw new NotFoundError(`A city with ${cityName} does not exist`);
 
-    const product = await apiCLient.getProduct(productName);
+    const product = await apiCLient.getProduct(productName.toLowerCase());
 
     if (!product)
       throw new NotFoundError(`A product with ${productName} does not exist`);
 
     const { brochures, page } = await apiCLient.getBrochure({
-      lat: 4.534,
-      lng: 4.66,
       query: productName,
     });
 
