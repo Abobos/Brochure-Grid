@@ -32,7 +32,7 @@ export default function Home() {
         </h1>
         <Link
           className="bg-[#009347] rounded-full p-3 md:p-5 text-white md:text-2xl"
-          href="/berlin/sss"
+          href="/berlin/bier"
         >
           View Brochures
         </Link>

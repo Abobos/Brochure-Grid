@@ -36,10 +36,4 @@ Please refer to the architectural diagram below for a better understanding.
 
 - Run `yarn install` to install project dependencies
 
-### Production Packaging
-
-```
-
-```
-
 ### Improvement Points

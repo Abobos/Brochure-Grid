@@ -1,3 +1,5 @@
+import "dotenv/config";
+
 const cmsUrl = process.env.CMS_URL;
 
 const apiCLient = {
