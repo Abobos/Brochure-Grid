@@ -6,10 +6,9 @@ export default function Brochure({ data }: { data: BrochureData }) {
   return (
     <div className="container mx-auto">
       <div className="flex flex-col">
-        <h1 className="text-2xl md:text-5xl self-center tracking-wider text-center">
+        <h1 className="text-2xl md:text-5xl self-center tracking-wider text-center bg-white p-5">
           Br<span className="text-[#e83840] font-bold">o</span>chures For{" "}
-          {data.product.attributes.name.toUpperCase()} Products in{" "}
-          {data.city.attributes.name.toUpperCase()}
+          {data.product.attributes.name} Products in {data.city.attributes.name}
         </h1>
 
         <div className="mt-4">

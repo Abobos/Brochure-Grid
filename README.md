@@ -27,13 +27,10 @@ Please refer to the architectural diagram below for a better understanding.
 
 ### Running the Service
 
-#### Docker
-
-- Install [Docker](https://www.docker.com/)
-- Run `docker-compose up -d`. But If you like to see those clumsy logs 😬, RUN `docker-compose up`
-
-#### Without Docker
-
 - Run `yarn install` to install project dependencies
 
 ### Improvement Points
+
+- Dockerize application
+- Write integration/end-to-end tests
+- Add a search option in the brochure display page to search across various cities and products without having to manually edit the page url
