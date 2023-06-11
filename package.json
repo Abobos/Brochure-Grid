@@ -12,9 +12,10 @@
     "cms:dev": "yarn workspace cms develop",
     "api:dev": "yarn workspace api dev",
     "client:dev": "yarn workspace client dev",
-    "dev": "concurrently \"yarn run cms:dev\" \"yarn run api:dev\" \"yarn run client:dev\""
+    "dev": "chmod +x scripts/dev.sh && scripts/dev.sh"
   },
   "devDependencies": {
-    "concurrently": "^8.1.0"
+    "concurrently": "^8.1.0",
+    "scripty": "^2.1.1"
   }
 }

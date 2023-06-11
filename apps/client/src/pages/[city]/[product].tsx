@@ -15,14 +15,14 @@ export default function Brochure({ data }: { data: BrochureData }) {
           <h2 className="md:text-2xl tracking-wide">
             {data.city.attributes.name.toUpperCase()}
           </h2>
-          <p>{data.city.attributes.description}</p>
+          <p className="text-justify">{data.city.attributes.description}</p>
         </div>
 
         <div className="mt-4">
           <h2 className="md:text-2xl tracking-wide">
             {data.product.attributes.name.toUpperCase()}
           </h2>
-          <p>{data.product.attributes.description}</p>
+          <p className="text-justify">{data.product.attributes.description}</p>
         </div>
       </div>
 
@@ -49,5 +49,5 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
       notFound: true,
     };
   }
-  return { props: { errorCode, data } };
+  return { props: { data } };
 }
