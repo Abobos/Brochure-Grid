@@ -1,4 +1,5 @@
 import BrochureCard from "@/components/Brochure";
+import Descriptor from "@/components/Descriptor";
 import { BrochureData } from "@/types";
 import { GetServerSidePropsContext } from "next";
 
@@ -6,27 +7,22 @@ export default function Brochure({ data }: { data: BrochureData }) {
   return (
     <div className="container mx-auto">
       <div className="flex flex-col">
-        <h1 className="text-2xl md:text-5xl self-center tracking-wider text-center bg-white p-5">
+        <header className=" flex text-2xl md:text-5xl self-center tracking-wider text-center bg-white p-5">
           Br<span className="text-[#e83840] font-bold">o</span>chures For{" "}
           {data.product.attributes.name} Products in {data.city.attributes.name}
-        </h1>
-
-        <div className="mt-4">
-          <h2 className="md:text-2xl tracking-wide">
-            {data.city.attributes.name.toUpperCase()}
-          </h2>
-          <p className="text-justify">{data.city.attributes.description}</p>
-        </div>
-
-        <div className="mt-4">
-          <h2 className="md:text-2xl tracking-wide">
-            {data.product.attributes.name.toUpperCase()}
-          </h2>
-          <p className="text-justify">{data.product.attributes.description}</p>
-        </div>
+        </header>
       </div>
 
-      <div className="mt-5 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 place-content-center">
+      <Descriptor
+        name={data.city.attributes.name}
+        description={data.city.attributes.description}
+      />
+      <Descriptor
+        name={data.product.attributes.name}
+        description={data.product.attributes.description}
+      />
+
+      <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 justify-items-center">
         {data.brochures.map((brochure) => (
           <BrochureCard brochure={brochure} key={brochure.id} />
         ))}
@@ -41,10 +37,10 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
   const res = await fetch(
     `${url}/city-product-grid?city=${context.query.city}&product=${context.query.product}`
   );
-  const errorCode = res.ok ? false : res.status;
+  const responseCode = res.status;
   const { data } = await res.json();
 
-  if (errorCode === 404) {
+  if (responseCode === 404) {
     return {
       notFound: true,
     };

@@ -34,7 +34,7 @@ It comprises of three components located in the apps folder namely **api**, **cl
 
 The API component, built with `Express.js`, exposes an endpoint `/city-product-grid` that consumes the CMS endpoints `/api/products` and `/api/cities`. The API checks if a specific product and city exist before responding to the client with the brochure data. Currently, the brochure data is mocked and located in the `apps/api/src/brochure.json` file.
 
-The CMS component is built with `Strapi` and hosts two tables, namely `products` and `cities`, which are content types. It exposes the endpoints `/api/products` and `/api/cities` for the API component to consume with response that follows the JSON API specifications. Additionally, the CMS component provides a graphical amdin interface at `/admin`, which is used to manage the content of these two tables. Through the CMS interface, the content can be edited, and the changes will be reflected in the frontend (client) application.
+The CMS component is built with `Strapi` and hosts two tables, namely `products` and `cities`, which are content types. It exposes the endpoints `/api/products` and `/api/cities` for the API component to consume with response that follows the JSON API specification. Additionally, the CMS component provides a graphical amdin interface at `/admin`, which is used to manage the content of these two tables. Through the CMS interface, the content can be edited, and the changes will be reflected in the frontend (client) application.
 
 The client component is built with `Next.js` and displays a view of the brochures related to a specific product and city. The URL pattern for accessing the brochures is `/{city}/{product}`. If the provided city or product is not found, a 404 page error is displayed to the user.
 
@@ -70,7 +70,8 @@ The client component is built with `Next.js` and displays a view of the brochure
 - Run `yarn dev` to run the project, and wait for a few seconds until you see some Project Information and `http://localhost:1337/admin` in the console.
 - Open `http://localhost:1337/admin` to manage the CMS content.
 - Complete the form to create the first administrator user of this Strapi application.
-- In order to make the API endpoints exposed by our CMS accessible, please go to Settings > Roles > Public in the Strapi dashboard and enabled the content-types(product, cities) method. You can use this [link](https://docs.strapi.io/dev-docs/quick-start#step-3-set-roles--permissions) to see context and more details on how to set it up. Kindly be informed that this step is very important as without this our API component won't be able to access `CMS` endpoints.
+- In order to make the API endpoints exposed by our CMS accessible, please go to Settings > Roles > Public in the Strapi dashboard and enabled the content-types(product, cities) method.
+  see more context [here](https://docs.strapi.io/dev-docs/quick-start#step-3-set-roles--permissions). Kindly be informed that this step is very important as without this our API component won't be able to access `CMS` endpoints.
 - Once you have completed the previous steps, open `http://localhost:3000` to view the frontend application.
 
 ### Improvement Points

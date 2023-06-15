@@ -8,9 +8,9 @@
       "validUntil": "2021-05-14T23:00:00",
       "rank": 1.0,
       "brochureImages": {
-        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309992/Beer/8_imy5mn.jpg",
-        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309992/Beer/8_imy5mn.jpg",
-        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309992/Beer/8_imy5mn.jpg"
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/4_c74cph.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309991/Beer/4_c74cph.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309991/Beer/4_c74cph.jpg"
       },
       "publisher": {
         "id": "1",
@@ -33,15 +33,15 @@
     },
     {
       "id": 2,
-      "title": "Mon style, mon choix",
+      "title": "Craft Beers",
       "contentId": "dc4bfbcc-...",
       "validFrom": "2021-04-01T00:00:00",
       "validUntil": "2021-05-14T23:00:00",
       "rank": 2.0,
       "brochureImages": {
-        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309992/Beer/9_tgp2ge.jpg",
-        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309992/Beer/9_tgp2ge.jpg",
-        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309992/Beer/9_tgp2ge.jpg"
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/5_fwsg0u.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309991/Beer/5_fwsg0u.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309991/Beer/5_fwsg0u.jpg"
       },
       "publisher": {
         "id": "2",
@@ -64,15 +64,15 @@
     },
     {
       "id": 3,
-      "title": "Mon style, mon choix",
+      "title": "Science of Beer",
       "contentId": "dc4bfbcc-...",
       "validFrom": "2021-04-01T00:00:00",
       "validUntil": "2021-05-14T23:00:00",
       "rank": 3.0,
       "brochureImages": {
-        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309992/Beer/12_rl8nte.jpg",
-        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309992/Beer/12_rl8nte.jpg",
-        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309992/Beer/12_rl8nte.jpg"
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309992/Beer/9_tgp2ge.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309992/Beer/9_tgp2ge.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309992/Beer/9_tgp2ge.jpg"
       },
       "publisher": {
         "id": "3",
@@ -95,15 +95,15 @@
     },
     {
       "id": 4,
-      "title": "Mon style, mon choix",
+      "title": "Beer Culture",
       "contentId": "dc4bfbcc-...",
       "validFrom": "2021-04-01T00:00:00",
       "validUntil": "2021-05-14T23:00:00",
       "rank": 4.0,
       "brochureImages": {
-        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309991/Beer/1_ppoylt.jpg",
-        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309991/Beer/1_ppoylt.jpg",
-        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309991/Beer/1_ppoylt.jpg"
+        "thumbnails": "https://res.cloudinary.com/property-pro-lite/image/upload/c_thumb,w_200,g_face/v1686309992/Beer/12_rl8nte.jpg",
+        "normal": "https://res.cloudinary.com/property-pro-lite/image/upload/v1686309992/Beer/12_rl8nte.jpg",
+        "large": "https://res.cloudinary.com/property-pro-lite/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1686309992/Beer/12_rl8nte.jpg"
       },
       "publisher": {
         "id": "4",
@@ -126,7 +126,7 @@
     },
     {
       "id": 5,
-      "title": "Mon style, mon choix",
+      "title": "Exceptional Beers",
       "contentId": "dc4bfbcc-...",
       "validFrom": "2021-04-01T00:00:00",
       "validUntil": "2021-05-14T23:00:00",
@@ -157,7 +157,7 @@
     },
     {
       "id": 6,
-      "title": "Mon style, mon choix",
+      "title": "Beer Appreciation",
       "contentId": "dc4bfbcc-...",
       "validFrom": "2021-04-01T00:00:00",
       "validUntil": "2021-05-14T23:00:00",
@@ -188,7 +188,7 @@
     },
     {
       "id": 7,
-      "title": "Mon style, mon choix",
+      "title": "Behind the Beers",
       "contentId": "dc4bfbcc-...",
       "validFrom": "2021-04-01T00:00:00",
       "validUntil": "2021-05-14T23:00:00",
@@ -219,7 +219,7 @@
     },
     {
       "id": 8,
-      "title": "Mon style, mon choix",
+      "title": "Exciting Flavors",
       "contentId": "dc4bfbcc-...",
       "validFrom": "2021-04-01T00:00:00",
       "validUntil": "2021-05-14T23:00:00",
@@ -250,7 +250,7 @@
     },
     {
       "id": 9,
-      "title": "Mon style, mon choix",
+      "title": "Magic of Craft Beer",
       "contentId": "dc4bfbcc-...",
       "validFrom": "2021-04-01T00:00:00",
       "validUntil": "2021-05-14T23:00:00",
@@ -281,7 +281,7 @@
     },
     {
       "id": 10,
-      "title": "Mon style, mon choix",
+      "title": "Through Beers",
       "contentId": "dc4bfbcc-...",
       "validFrom": "2021-04-01T00:00:00",
       "validUntil": "2021-05-14T23:00:00",
@@ -312,7 +312,7 @@
     },
     {
       "id": 508671,
-      "title": "Mon style, mon choix",
+      "title": "Mon choix",
       "contentId": "dc4bfbcc-...",
       "validFrom": "2021-04-01T00:00:00",
       "validUntil": "2021-05-14T23:00:00",
@@ -343,7 +343,7 @@
     },
     {
       "id": 12,
-      "title": "Mon style, mon choix",
+      "title": "Exquisite Beers",
       "contentId": "dc4bfbcc-...",
       "validFrom": "2021-04-01T00:00:00",
       "validUntil": "2021-05-14T23:00:00",

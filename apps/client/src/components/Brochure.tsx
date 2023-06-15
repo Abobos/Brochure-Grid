@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function BrochureCard({ brochure }: { brochure: Brochure }) {
   return (
-    <div className="w-80 h-auto border-2 p-3 rounded-lg">
+    <div className="w-80 h-auto border-2 p-3 rounded-lg bg-white">
       <div>
         <Image
           src={brochure.brochureImages.normal}

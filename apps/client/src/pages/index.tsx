@@ -28,7 +28,7 @@ export default function Home() {
 
       <section className="h-screen flex flex-col justify-center items-center space-y-4">
         <h1 className="tracking-wider md:text-4xl">
-          Brochure Promotion For Cities and Product
+          Brochure Promotion For Products in Cities
         </h1>
         <Link
           className="bg-[#009347] rounded-full p-3 md:p-5 text-white md:text-2xl"
